@@ -1,0 +1,65 @@
+footer{
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+
+    .footer__content{
+        max-width: 500px;
+        margin: auto;
+    
+        .social__icons{
+            img{
+                width: 24px;
+                margin: 0 0.5em;
+            }
+        }
+
+        .footer__links{
+            list-style: none;
+            margin: 1em 0;
+
+            li{
+                margin: 0.5em 0;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .invite__btn{
+            background-color: #31d35c;
+            color: white;
+            border: none;
+            padding: 0.75em 1.5em;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 25px;
+            margin-top: 1em;
+        }
+    }
+}
+
+@media (min-width: 600px){
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .social__icons{
+            margin-bottom: 1em;
+        }
+        .footer__links{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            li{
+                margin: 0 1em;
+            }
+        }
+    }
+}

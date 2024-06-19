@@ -1,0 +1,40 @@
+.features{
+    padding: 2em 1em;
+    text-align: center;
+    border: 3px solid red;
+
+    h2{
+        margin-bottom: 1em;
+    }
+
+    p{
+        margin-bottom: 2em;
+        color: #666;
+    }
+
+}
+
+.feature{
+    margin-bottom: 2em;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+        max-width: 60px;
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 600px){
+    .features{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .feature{
+        width: 45%;
+    }
+}
