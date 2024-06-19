@@ -1,18 +1,29 @@
-header{
+header {
     background-color: #fff;
     padding: 1em;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e1e1e1;
 }
 
-.logo{
+.nav__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.header__container{
+    align-items: center;
+}
+
+.logo {
     width: 120px;
 }
 
-.menu__toggle{
+.menu__toggle {
     font-size: 1.5em;
+    margin-bottom: 5px;
     background: none;
     border: none;
     cursor: pointer;
