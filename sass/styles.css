@@ -39,13 +39,23 @@ p {
   color: #666;
 }
 
+:root {
+  --dark-Blue: hsl(233, 26%, 24%);
+  --lime-Green: hsl(136, 65%, 51%);
+  --bright-Cyan: hsl(192, 70%, 51%);
+  --grayish-Blue: hsl(233, 8%, 62%);
+  --light-Grayish-Blue: hsl(220, 16%, 96%);
+  --very-Light-Gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
 .hero {
   color: white;
   text-align: center;
 }
 
 .hero__content {
-  border: 3px solid black;
+  margin: auto;
 }
 
 .phone__mockup {
@@ -66,7 +76,6 @@ p {
 .features {
   padding: 2em 1em;
   text-align: center;
-  border: 3px solid red;
 }
 .features h2 {
   margin-bottom: 1em;
@@ -77,8 +86,9 @@ p {
 }
 
 .feature {
-  margin-bottom: 2em;
   border: 3px solid black;
+  margin: 2em 2em;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +111,6 @@ p {
   }
 }
 .articles {
-  border: 3px solid black;
   padding: 2em 1em;
   text-align: center;
 }
@@ -124,7 +133,6 @@ p {
 
 @media (min-width: 600px) {
   .articles {
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -141,6 +149,7 @@ footer {
 footer .footer__content {
   max-width: 500px;
   margin: auto;
+  background-color: var(--dark-Blue);
 }
 footer .footer__content .social__icons img {
   width: 24px;
@@ -188,7 +197,4 @@ footer .footer__content .invite__btn {
   .footer__content .footer__links li {
     margin: 0 1em;
   }
-}
-body {
-  background: gray;
 }/*# sourceMappingURL=styles.css.map */

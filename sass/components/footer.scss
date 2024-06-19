@@ -1,3 +1,5 @@
+
+
 footer{
     color: white;
     padding: 2em 1em;
@@ -6,7 +8,8 @@ footer{
     .footer__content{
         max-width: 500px;
         margin: auto;
-    
+        background-color: var(--dark-Blue);
+
         .social__icons{
             img{
                 width: 24px;

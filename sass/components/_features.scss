@@ -1,7 +1,6 @@
 .features{
     padding: 2em 1em;
     text-align: center;
-    border: 3px solid red;
 
     h2{
         margin-bottom: 1em;
@@ -15,8 +14,10 @@
 }
 
 .feature{
-    margin-bottom: 2em;
+
     border: 3px solid black;
+    margin: 2em 2em;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
