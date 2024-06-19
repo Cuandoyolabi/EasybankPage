@@ -1,1 +1,35 @@
-/*# sourceMappingURL=styles.css.map */
+header {
+  background-color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu__toggle {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+body {
+  background: gray;
+}/*# sourceMappingURL=styles.css.map */
