@@ -3,6 +3,10 @@
     text-align: center;
 
     h2{
+        font-weight: lighter;
+        font-size: 32px;
+        color: hsl(233, 26%, 24%);
+        margin-top: 30px;
         margin-bottom: 1em;
     }
     p{
@@ -13,11 +17,21 @@
     .article{
         margin-bottom: 2em;
 
+        h3, p{
+            font-weight: lighter;
+            font-size: 18px;
+            padding: 0px 30px;
+            text-align: left;
+        }
+        p{
+            font-size: 14px;
+            color: #888383;
+        }  
         img{
             width: 328px;
             height: 202px;
             margin-bottom: 1em;
-            border-radius: 10px;
+            border-radius: 5px;
         }
     }
 }

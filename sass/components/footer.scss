@@ -1,14 +1,22 @@
 footer{
     color: white;
     text-align: center;
-   
+    border: 3px solid green;
+
     .footer__content{
         width: 100%;
         height: 500px;
         margin: auto;
+        border: 2px solid black;
         background-color: var(--dark-Blue);
 
+        .logo__footer{
+            margin: 20px 20px;
+        }
+
         .social__icons{
+            border: 2px solid red;
+
             img{
                 width: 24px;
                 margin: 0 0.5em;
@@ -18,6 +26,13 @@ footer{
         .footer__links{
             list-style: none;
             margin: 1em 0;
+            border: 2px solid red;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
 
             li{
                 margin: 0.5em 0;

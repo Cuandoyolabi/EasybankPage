@@ -1,12 +1,20 @@
 footer {
   color: white;
   text-align: center;
+  border: 3px solid green;
 }
 footer .footer__content {
   width: 100%;
   height: 500px;
   margin: auto;
+  border: 2px solid black;
   background-color: var(--dark-Blue);
+}
+footer .footer__content .logo__footer {
+  margin: 20px 20px;
+}
+footer .footer__content .social__icons {
+  border: 2px solid red;
 }
 footer .footer__content .social__icons img {
   width: 24px;
@@ -15,6 +23,12 @@ footer .footer__content .social__icons img {
 footer .footer__content .footer__links {
   list-style: none;
   margin: 1em 0;
+  border: 2px solid red;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer__content .footer__links li {
   margin: 0.5em 0;
