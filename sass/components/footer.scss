@@ -14,8 +14,12 @@ footer{
             margin: 20px 20px;
         }
 
+        p{
+            color: hwb(233 59% 35%);
+            font-size: 13px;
+        }
+
         .social__icons{
-            border: 2px solid red;
 
             img{
                 width: 24px;
@@ -25,9 +29,8 @@ footer{
 
         .footer__links{
             list-style: none;
-            margin: 1em 0;
-            border: 2px solid red;
-            height: 300px;
+            margin: 0em 0;
+            height: 250px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -54,7 +57,7 @@ footer{
             font-size: 1em;
             cursor: pointer;
             border-radius: 25px;
-            margin-top: 1em;
+            margin-bottom: 30px;
         }
     }
 }

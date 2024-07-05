@@ -215,10 +215,11 @@ footer .footer__content {
   background-color: var(--dark-Blue);
 }
 footer .footer__content .logo__footer {
-  margin: 35px 20px;
+  margin: 20px 20px;
 }
-footer .footer__content .social__icons {
-  border: 2px solid red;
+footer .footer__content p {
+  color: hwb(233 59% 35%);
+  font-size: 13px;
 }
 footer .footer__content .social__icons img {
   width: 24px;
@@ -226,9 +227,8 @@ footer .footer__content .social__icons img {
 }
 footer .footer__content .footer__links {
   list-style: none;
-  margin: 1em 0;
-  border: 2px solid red;
-  height: 300px;
+  margin: 0em 0;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -252,6 +252,7 @@ footer .footer__content .invite__btn {
   font-size: 1em;
   cursor: pointer;
   border-radius: 25px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 600px) {
