@@ -28,3 +28,10 @@ header {
     border: none;
     cursor: pointer;
 }
+
+@media (min-width: 700px){
+    .logo{
+        margin-left: 50px;
+    }
+    
+}
